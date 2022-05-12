@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>ZenckNotícias</title>
+
+        <head>
+            <body>
+                
+
+<center>
+
+<div class="formulario">
+    <br>
+
+                <h1>TELA DE CADASTRO</h1>
+
+          <form target="_blank"   method="post" action="cadastro.php"> 
+
+                <label>NOME:</label><br>
+                <input type="text" size="38" name="nome" style padding:15px; name="nome"><br><br>
+                <label>E-MAIL:</label><br>
+                <input type="email" name="email" size="38" style padding:15px;><br><br>
+                <label>CPF:</label><br>
+                <input type="number" name="cpf" size="38" style padding:25px;><br><br>
+                <label>SENHA:</label><br>
+                <input type="password" name="senha" size="38" style padding:25px;><br><br>
+
+          </form>
+           
+           <button><a href="logar.html">LOGAR-SE</button>
+          <input type="submit" value="CADASTRAR"name="logar">  <br><br>
+</div>
+</center>
+
+<style>
+    
+    body{
+        background-image: url("https://i.pinimg.com/originals/d9/f3/d0/d9f3d0c39d3fe52bbfff3e293f03cd3b.jpg");
+    }
+    .formulario{
+    position center;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+    margin: 150px;
+    border-radius: 50px;
+    }
+
+
+
+</style>
+
+
+
+<script type="text/javascript">
+function validaCampo()
+{
+if(document.CADASTRO.nome.value=="")
+{
+alert("O Campo nome é obrigatório!");
+return false;
+}
+else
+if(document.CADASTRO.email.value=="")
+{
+alert("O Campo email é obrigatório!");
+return false; 
+}else
+if(document.CADASTRO.cpf.value=="")
+{
+alert("O Campo cpf é obrigatório!");
+return false; 
+}else
+if(document.CADASTRO.senha.value=="")
+{
+alert("O Campo senha é obrigatório!");
+return false; 
+}else
+</script>
+
+
+
+
+
+
+
+
+
+
+            </body>
+        </head>
